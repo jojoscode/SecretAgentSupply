@@ -73,13 +73,17 @@ header span {
   color: white;
 }
 
-nav {
+.fullNav {
   display: flex;
   max-width: 960px;
   margin: 0 auto;
   justify-content: space-between;
   padding: 0.75rem 0;
   align-items: center;
+}
+
+.smallNav {
+  display: none;
 }
 
 nav span {
@@ -172,4 +176,86 @@ h4 {
   color: white;
   background-color: black;
   text-align: left;
+}
+
+@media only screen and (max-width: 1024px) {
+  .fullNav {
+    display: none;
+  }
+
+  .smallNav {
+    display: block;
+    text-align: center;
+    background-color: firebrick;
+    color: white;
+    padding: 0.75rem 0;
+  }
+
+  .glass .imageBox,
+  .glass h2 {
+    display: none;
+  }
+
+  .productGrid {
+    flex-wrap: wrap;
+  }
+
+  .pen,
+  .watch {
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .mainImage {
+    height: 13.5rem;
+  }
+
+  .mainHead {
+    margin-top: 9rem;
+    height: 0.5rem;
+  }
+
+  .mainHead h3 {
+    margin-top: -1rem;
+    font-size: 0.77rem;
+    margin-left: -1rem;
+  }
+
+  .mainHead h1 {
+    margin-top: -0.5rem;
+    font-size: 1rem;
+    margin-left: -1rem;
+  }
+
+  .productGrid {
+    display: block;
+    margin-bottom: -1.5rem;
+  }
+
+  .glass .imageBox,
+  .glass h2,
+  .watch .imageBox,
+  .watch h2 {
+    display: none;
+  }
+
+  .locaHoursGrid {
+    display: block;
+  }
+
+  .pen,
+  .location,
+  .hours {
+    width: 90%;
+    padding-left: 1.25rem;
+  }
+
+.location p {
+  margin-bottom: 1.25rem;
+}
+
+  footer {
+    justify-content: center;
+  }
 }
