@@ -1,0 +1,175 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: white;
+}
+
+.logoBar {
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+header img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+header span {
+  color: white;
+  font-size: 1rem;
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.mainImage {
+  height: 25rem;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.headBox {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.mainHead {
+  width: 23rem;
+  padding: 2rem 0 2rem 3rem;
+  background-color: black;
+  margin-top: 9rem
+}
+
+.mainHead h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.mainHead h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: .5rem;
+  line-height: 2.25rem;
+}
+
+.navBar {
+  background-color: firebrick;
+  color: white;
+}
+
+nav {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  align-items: center;
+}
+
+nav span {
+  font-size: 1rem;
+}
+
+.productBox {
+  margin-bottom: 5rem;
+}
+
+.productGrid {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.pen,
+.watch,
+.glass {
+    width: 30%;
+}
+
+.imageBox {
+  height: 70%;
+  padding: 2rem 0;
+  border: 4px solid black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageBox img {
+  max-width: 8rem;
+}
+
+.pen h2,
+.watch h2,
+.glass h2 {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.locaHours {
+}
+
+.locaHoursGrid {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.location,
+.hours {
+  width: 35%;
+}
+
+.location h2,
+.hours h2 {
+  background-color: black;
+  color: white;
+  padding: 1rem 0 1rem 2rem;
+  text-align: left;
+}
+
+p {
+  padding-top: .25rem;
+  color: black;
+}
+
+.copy {
+  background-color: black;
+  margin-top: 4rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  height: 11rem;
+}
+
+h4 {
+  color: white;
+  background-color: black;
+  text-align: left;
+}
